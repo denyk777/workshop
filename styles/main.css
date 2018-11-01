@@ -3,44 +3,71 @@ body {
 }
 
 .main {
-    margin: 50px 0 0 50px;
+    margin: 100px 0 0 108px;
 }
 
-.nav {
+.header {
+    font-size: 42px;
+    letter-spacing: 1.2px;
+    color: #1a1a1a;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: #e8c734;
+    width: 222px;
+    text-align: center;
+    line-height: 82px;
+}
+
+.skills_group {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.nav__item {
-    margin-top: 20px;
-}
-
-.nav__item:first-child {
-    margin-top: 0;
-}
-
-.nav__link {
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    color: #000;
+.name_skill {
+    margin: 30px 0 0 0;
+    letter-spacing: 1.8px;
+    font-size: 28px;
+    color: #1a1a1a;
+    font-family: "Roboto", sans-serif;
     text-decoration: none;
-    font-weight: 700;
-    text-transform: uppercase;
+}
+
+.progress_bar {
+    margin: 10px 0 0 0;
+    width: 620px;
+    height: 28px;
+    border: 2px solid #e7e7e8;
+    background-color: #FFFFFF;
     position: relative;
 }
-
-.nav__link:after {
-    content: '';
+.progress_bar::before {
     position: absolute;
-    left: -9px;
-    top: calc(100% + 4px);
-    bottom: -4px;
-    width: 3px;
-    background-color: #d9a748;
-    transition: top 0.3s ease-in-out;
+    content: '';
+    height: 28px;
+    background-color: #bfc0c1;
 }
 
-.nav__link:hover:after {
-    top: -4px;
+.progress_bar_communication:before {
+    width: 75%;
+}
+
+.progress_bar_creativity:before {
+    width: 90%;
+}
+
+.progress_bar_teamwork:before {
+    width: 70%;
+}
+
+.progress_bar_organization:before {
+    width: 80%;
+}
+
+.progress_bar_leadership:before {
+    width: 65%;
+}
+
+.progress_bar_teamplayer:before {
+    width: 90%;
 }
