@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    margin: 8.5% 0 0 5%;
+}
+
+.header__name {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    letter-spacing: 6px;
+    line-height: 59px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header__text {
+    margin-left: 30%;
+    width: 41%;
+    color: #798285;
+    font-size: 14px;
+    letter-spacing: 1.7px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.content {
+    margin: 6.6% 0 0 21%;
+}
+
+.content__post {
+    margin-bottom: 6.7%;
+}
+
+.content__post_left {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.5%;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.content__post_left_date {
+    margin: 0;
+    border-bottom: 1px solid #000;
+    padding: 8% 0 0.7% 0;
+    color: #595959;
+}
+
+.content__post_left_header {
+    margin: 0;
+}
+
+.content__post_right {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 0 1.5%;
+    width: 50%;
+}
+
+.content__post_right_header {
+    font-size: 23px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    margin: 3% 0 2% 0;
+}
+
+.content__post_right_text {
+    color: #acacac;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin: 0 0 6% 0;
+    width: 85%;
+}
+
+.content__post_right_button {
+    padding: 2% 11%;
+    background-color: #000;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer {
+    display: block;
+    /*width: 2000px;*/
+    height: 787px;
+    margin-top: -350px;
+    background: url("../images/background.jpg") no-repeat;
+    width: auto;
+}
+
+@media screen and (max-width: 957px) {
+    .header {
+        margin: 22% 0 0 0;
+        width: 100%;
+    }
+    .header__name {
+        font-size: 60px;
+        letter-spacing: 9px;
+        line-height: 59px;
+        font-weight: 400;
+    }
+
+    .header__text {
+        margin: 5.5% 0 0 7%;
+        font-size: 19px;
+        letter-spacing: 2px;
+        line-height: 29px;
+        width: 86%;
+    }
+
+    .content {
+        margin: 7% 0 0 0;
+    }
+
+    .content__post_left {
+        display: block;
+        width: 86%;
+        margin: 0 0 0 7%;
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .content__post_right {
+        display: block;
+        width: 86%;
+        margin: 5.5% 0 9% 7%;
+    }
+
+    .content__post_right_header {
+        font-size: 29px;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+
+    .content__post_right_text {
+        width: 100%;
+        margin: 4% 0 9.5% 0;
+        font-size: 19px;
+        letter-spacing: 1.5px;
+        line-height: 29px;
+    }
+
+    .content__post_right_button {
+        font-size: 20px;
+        margin-left: 35%;
+        padding: 2.5% 12%;
+        font-weight: 700;
+    }
+
+    .footer {
+        width: auto;
+        background-position: -600px;
+    }
+}
