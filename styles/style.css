@@ -26,7 +26,7 @@ body {
     text-align: center;
 }
 
-.content {
+.main {
     margin: 6.6% 0 0 21%;
 }
 
@@ -44,14 +44,14 @@ body {
     text-transform: uppercase;
 }
 
-.content__post_left_date {
+.content__post_left-date {
     margin: 0;
     border-bottom: 1px solid #000;
     padding: 8% 0 0.7% 0;
     color: #595959;
 }
 
-.content__post_left_header {
+.content__post_left-header {
     margin: 0;
 }
 
@@ -62,14 +62,14 @@ body {
     width: 50%;
 }
 
-.content__post_right_header {
+.content__post_right-header {
     font-size: 23px;
     letter-spacing: 0.5px;
     line-height: 24px;
     margin: 3% 0 2% 0;
 }
 
-.content__post_right_text {
+.content__post_right-text {
     color: #acacac;
     font-size: 14px;
     letter-spacing: 0;
@@ -78,17 +78,21 @@ body {
     width: 85%;
 }
 
-.content__post_right_button {
+.content__post_right-button {
+
+}
+
+.button {
     padding: 2% 11%;
     background-color: #000;
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
+    border: 0;
 }
 
 .footer {
     display: block;
-    /*width: 2000px;*/
     height: 787px;
     margin-top: -350px;
     background: url("../images/background.jpg") no-repeat;
@@ -115,7 +119,7 @@ body {
         width: 86%;
     }
 
-    .content {
+    .main {
         margin: 7% 0 0 0;
     }
 
@@ -133,13 +137,13 @@ body {
         margin: 5.5% 0 9% 7%;
     }
 
-    .content__post_right_header {
+    .content__post_right-header {
         font-size: 29px;
         letter-spacing: 1px;
         line-height: 30px;
     }
 
-    .content__post_right_text {
+    .content__post_right-text {
         width: 100%;
         margin: 4% 0 9.5% 0;
         font-size: 19px;
@@ -147,11 +151,14 @@ body {
         line-height: 29px;
     }
 
-    .content__post_right_button {
-        font-size: 20px;
+    .content__post_right-button {
         margin-left: 35%;
+    }
+
+    .button {
         padding: 2.5% 12%;
         font-weight: 700;
+        font-size: 20px;
     }
 
     .footer {
