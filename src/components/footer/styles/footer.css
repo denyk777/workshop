@@ -1,0 +1,20 @@
+.footer {
+    margin-top: 300px;
+    padding-top: 40px;
+    height: 40px;
+    width: 78%;
+    background-color: #f0f0f0;
+}
+
+.footerItem {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#termItem {
+    padding-left: 80px;
+}
+
+#privacyItem {
+    padding-left: 20px;
+}

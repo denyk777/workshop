@@ -1,0 +1,49 @@
+.contentBox {
+    display: inline-block;
+    vertical-align: top;
+    padding: 76px 0 0 84px;
+    width: 650px;
+    font-family: Arial, serif;
+}
+
+#sideBar {
+    padding: 90px 0 0 50px;
+    width: 300px;
+    font-family: "Arial", serif;
+}
+
+.sidebarHeader {
+    padding-top: 10px;
+    margin: 0;
+    font-size: 24px;
+}
+
+
+#sidebarContainer {
+    width: 278px;
+    height: 58px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.contentSubheader {
+    font-size: 14px;
+    color: #b4ad9e;
+}
+
+#headerSideBar {
+    padding: 17px 0 10px 0;
+}
+
+.postHeader {
+    font-weight: bold;
+    padding: 3px 0 10px 15px;
+    list-style: disc;
+}
+
+.postComments {
+    font-size: 14px;
+    padding: 0 20px 22px 15px;
+    color: #b4ad9e;
+}
+
