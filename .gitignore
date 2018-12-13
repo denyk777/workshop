@@ -2,4 +2,5 @@
 *.jar
 *.iml
 build/
-node_module/
+.goutputstream-2MTYTZ
+node_modules/
